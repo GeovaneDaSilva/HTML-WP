@@ -1,0 +1,1075 @@
+.eye-icon {
+    position: absolute;
+    left: 58%;
+    top: 39%;
+	display: none;
+}
+.hovereffect > img {
+    z-index: 222;
+}
+.choose-1{
+	    background-color: white;
+    padding: 11px !important;
+    width: 96%;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.hover-portfolio .col-sm-4:hover .eye-icon {
+    display: block;
+	cursor: pointer;
+}
+.hover-portfolio .col-sm-4:hover img:nth-child(2) {
+    opacity: 0.3;
+	cursor: pointer;
+}
+.abc{
+	background-color:#185ba9;
+	color: #ffffff;
+	font-size: 12px;
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.abc1{
+	background-color: #185ba9;
+	color: #ffffff;
+}
+.envelop img{
+	width: 26.5px;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.area img{
+	width: 47px;
+	padding: 8px;
+}
+.address{
+	color: #ffffff;
+	font-weight: bold;
+	display: inline;
+}
+.address span.earphone img{
+	width: 40.5px;
+	padding: 10px 0 0px 0px;
+}
+
+
+.grad{
+	background: linear-gradient(92deg, #fd6f33, #f32076);
+	min-height: 540px;
+	color: #ffffff;
+	padding-right: 0px;
+}
+.mainMenu .navbar-default{
+	background: none;
+	border: none;
+}
+.l2{
+	border: 1px solid grey;
+}
+.logo img{
+	width: 68%;
+	padding-left: 25px;
+}
+.menu{
+	font-size: 17px;
+	padding-left: 65px;
+	
+}
+.mainMenu{
+	margin-top: 20px;
+}
+
+.m-15{
+	margin: 0 !important;
+}
+.CButton{
+	border: none!important;
+    color: black;
+    background-color: #ffffff!important;
+    border-radius: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2px 20px;
+
+}
+.mainContent{
+	letter-spacing: -2.8px;
+}
+.mainList{
+	list-style-type: square;
+	padding-left: 0px;
+	    list-style: none;
+}
+.MButton{
+	border: orange;
+	color: black;
+	background-color: #ffffff!important;
+	border-radius: 22px;
+	margin-top: 20px;
+	font-size: 14px;
+	padding: 7px 30px;
+
+}
+.iPhones{
+	padding-right: 0px!important;
+}
+.iPhones img{
+	width: 100%;
+	margin-top: 45px;
+	margin-right: 0px;
+}
+.blueBanner img{
+	width: 100%;
+}
+
+.my-tp{
+	margin-top: 100px;
+}
+
+.my-tp-2{
+	background: url('../img-2/Layer 1.png');
+	margin-bottom: 100px;
+	height: 109px;
+	width: 109px;
+}
+
+.my-7-pdd{
+	padding-top: 30px;
+}
+
+.blue-long{
+	background: #405e9e !important;
+	height: 150px;
+}
+
+.bor{
+	margin-top: 30px;
+}
+.bor >.pinkLine{
+	height: 6px;
+	background-color: #f32076;
+	margin-top: 55px;
+}
+.bor >.pinkH1{
+	font-weight: bolder;
+	font-size: 34px;
+}
+.pinkH{
+	color: #f32076;
+	margin-bottom: 2px;
+	font-weight: bolder;
+}
+.blackH{
+	margin-top: 0px!important;
+	font-weight: bolder;
+	color: #384554;
+}
+.para{
+	font-size: 18px;
+    font-weight: bold;
+    color: #384554;
+	 padding: 0px 33px;
+}
+.visIMG{
+	margin: 0 auto;
+}
+.visH{
+	font-weight: bold;
+    color: #384554;
+}
+.pinkBG{
+	color: #ffffff;
+	background-color: #f32076;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold; 
+}
+.headen{
+	font-weight: bolder;
+    font-size: 34px;
+}
+.prob{
+	margin-top: 60px;
+}
+.probImg{
+	margin-top: 30px;
+}
+.blueH2{
+	color: #405e9e;
+	font-weight: bold;
+	font-size: 22px;
+}
+.blueH2main{
+	min-height: 140px;
+}
+.social{
+	background-image: url("../images/social.png");
+	background-size: cover;
+	min-height: 420px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+.expertos{
+	font-size: 34px;
+	text-align: center;
+}
+.h1expertos{
+	font-weight: bolder;
+	color: #f32076;
+	margin-bottom: 2px;
+}
+.h12expertos{
+	font-weight: bolder;
+	color: #ffffff;
+	margin-top: 0px;
+}
+.socialPara{
+color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding: 18px 35px 0px 25px;
+}
+.socialButton{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-weight: bold;
+	font-size: 19px;
+	background: transparent;
+	height: 50px;
+    width: 235px;
+    margin: 25px 0px;
+}
+.h1Orange{
+	font-weight: bolder;
+	color: #fd6f2d;
+	margin-bottom: 2px;
+	font-size: 34px;
+}
+.h1UnderOrange{
+	font-weight: bolder;
+	color: #384554;
+	margin-top: 0px;
+	font-size: 34px;
+}
+.storeimg{
+	margin-top: 50px;
+}
+.hrblue{
+	background: #405E9E;
+	height: 3px;
+	margin-top: 12px;
+}
+.hrorange{
+	background: #FD712C;
+	height: 3px;
+	margin-top: 12px;
+}
+.hrpink{
+	background: #007BB6;
+	height: 3px;
+	margin-top: 14px;
+}
+.icon-img{
+	width: 40%;
+	border-radius: 20px;
+	background: #fd6f2d;
+}
+.storeh{
+	font-weight: bold;
+	color: #384554;
+	font-size: 16px;
+}
+.fbicon{
+	/*background-color: #405e9e;
+	width: 95px;
+    border-radius: 100%;
+    padding: 12px;*/
+}
+.fbBg{
+	background-color: #405E9E;
+	color: #ffffff;
+	padding: 30px 8px;
+	border-radius: 8px;
+	height:490px;
+}
+.fbBg img{
+	width: 50px;
+	padding: 10px;
+}
+.spa{
+	display: block;
+	text-align: center;
+	    line-height: 10px;
+}
+.p1{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+}
+.hrW{
+	color: #ffffff;
+	width: 60%;
+}
+.instaicon{
+	/*background: #fd6f2d;*/
+	/*width: 89px;
+    padding: 18px;
+    border-radius: 41px;*/
+}
+.instaBg{
+	background: #FD712C;
+	color: #ffffff;
+	padding: 30px 7px;
+	border-radius: 8px;
+	height:490px;
+}
+.instaBg img{
+	width: 50px;
+	padding: 10px;
+}
+.linkicon{
+	/*background: #f32076;
+	width: 85px;
+    border-radius: 100%;
+    padding: 12px;*/
+}
+.linkBg{
+	background: #007BB6;
+	color: #ffffff;
+	padding: 30px 7px;
+	border-radius: 8px;
+	height:490px;
+}
+.linkBg img{
+	width: 50px;
+	padding: 10px;
+}
+.subButton{
+	color: #ffffff;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+    background: transparent;
+    height: 50px;
+    width: 190px;
+    margin: 25px 0px;
+    /* position: absolute; */
+    margin: 25px 0px;
+    bottom: 10px;
+    /* right: 91px; */
+}
+.a{
+	border: 1px solid red;
+}
+@media(max-width: 767px){
+	.ab{
+		display: none;
+	}
+	.socialButton{
+		margin-bottom: 40px;
+	}
+	.like{
+		margin: 30px 0px;
+	}
+}
+@media(max-width: 991px){
+	.abc{
+		padding-left: 17px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1225px){
+	.address{
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.abc{
+		font-size: 12px;
+		padding-left: 0px;
+		font-weight: bold;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.number {
+    position: absolute;
+    padding: 10px 0 0px 4px;	
+}
+
+
+.number-foot {
+    position: absolute;
+    padding: 10px 0 0px 5px;
+    font-size: 12px;
+}
+
+	
+
+.address span img {
+       padding: 4px;
+    width: 18%;
+}
+
+.pad-top {
+	padding-top: 6px;
+	    text-align: center;
+    float: right;
+}
+
+.nav {
+    padding-left: 8%;
+}
+
+.mainList li img{
+	    padding-bottom: 5px;
+}
+
+.padd {
+    padding-top: 10px;
+}
+
+.like img{
+	width: 45%;
+}
+
+.voucher-pad {
+	padding: 0 30px;
+}
+
+.voucher-pad2 {
+	padding: 0 50px;
+}
+
+#topad {
+margin-top:50px;
+}
+
+.footer-h1-0 {
+	    padding-left: 20px;
+   width: 7%;
+}
+
+.footer-p-0 {
+	padding-left:10px;
+}
+
+.rem-lefpad {
+margin-left: 0px;
+    width: 36%;
+}
+
+.rem-lefpad-foot {
+    margin-left: 0px;
+    width: 31%;
+}
+
+
+
+/*********   Footer fonts and icon css  *******/
+
+.fix {
+	font-size: 13px;
+}
+
+.foot-env img {
+	width: 15%;
+    padding: 7px;
+}
+
+
+.foot-nopad-left {
+	padding-left:20px;
+	    width: 20%;
+}
+
+.foot-flag img {
+    width: 7%;
+    padding: 5px;	
+}
+
+.shrink img {
+	width:100%
+}
+
+
+.address span.earphone-foot img{
+     width: 18%;
+    padding: 10px 0 0px 0px;
+}
+
+.padtop {
+	padding-top: 22px;
+}
+
+.padtoplil {
+	padding-top: 8px;
+}
+
+
+
+.nosidepad {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.norightpad {
+	padding-right:0px;
+}
+
+.balance {
+	    width: 11%;
+}
+
+.balance00 {
+	    width: 11%;
+}
+
+.balance0 {
+	    width: 17%;
+}
+
+.balance1 {
+	    width: 10%;
+}
+
+
+
+
+
+
+/*********   MEDIA QUERIES FOR RESPONSIVE  ********/
+
+
+/*****  For Mobiles  *****/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #405e9e;
+	    border-color: #405e9e;
+}
+
+.collapse.navbar-collapse ul li a {
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #405e9e;
+    background: #405e9e;
+}
+
+
+.res-row {
+     text-align: left !important;
+}
+
+
+.foot-nopad-left {
+    width: 100% !important;
+}
+
+.WP-img-setter {
+    width: 10% !important;
+    margin-left: 230px !important;
+}
+
+
+.p1 {
+    line-height: 15px !important;
+}
+
+.my-res{
+    padding-left: 18.5px !important;
+}
+
+
+.my-res-p img {
+    width: 100%;
+    height: 330px !important;
+}
+
+img#imgicon2 {
+    margin-bottom: 0px !important;
+	/*padding-right: 8px !important;*/
+}
+
+
+ img#imgicon1, img#imgicon3 , img#imgicon2 , img#imgicon4, img#imgicon5, img#imgicon6 {
+    height: 35px !important;
+}
+
+.hovereffect img#imgicon1.rod{
+    height: 125px !important;
+    padding-left: 6px;
+} 
+
+
+img#imgicon1 , img#imgicon5 {
+    margin-bottom: 0px !important;
+}
+
+.quick-image {
+   left: -45px !important;
+}
+
+
+.cot {
+    position: relative !important;
+    padding: 10px !important;
+    width: 40% !important;
+	right: 0 !important;
+}
+
+br {
+	display: none;
+}
+
+
+.choose-1 {
+    width: 90% !important;
+}
+
+
+ .form{
+	 padding-bottom: 15px  !important;
+}
+	
+	.form img{
+    padding-bottom: 10px  !important;
+	 width: 8% !important;
+}
+
+.form .col-sm-4 p{
+    margin: 5px;
+}
+
+
+.form .col-sm-4 select {
+    width: 90% !important;
+    height: 25px !important;
+}	
+	
+.form input {
+    width: 90% !important;
+    height: 30px  !important;
+}
+
+	
+.form h1 {
+    font-size: 26px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+	    height: 3px;
+}
+
+
+.mainMenu .navbar-default {
+    position: relative !important;
+    right: 0px !important;
+    top: -30px !important;
+    background: none;
+    border: none;
+}
+
+.logo img {
+    width: 90%;
+    padding-left: 0px;
+}
+
+
+.address span.earphone img {
+    width: 10% !important;
+    padding: 10px 0 0px 6px;
+}
+
+.abc {
+       padding-left: 9%;
+    font-size: 14px;
+	    margin-top: 15px;
+}
+
+.area img {
+    width: 10% !important;
+    padding: 8px;
+    vertical-align: baseline;
+}
+
+
+.address {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    width: 80%;
+    padding: 5px;
+}
+
+.envelop img {
+    width: 12% !important;
+    padding: 10px ;
+}
+
+.abc1 {
+    background-color: #185ba9;
+    color: #ffffff;
+    padding-top: 10px;
+	padding-left: 10%;
+}
+
+.number {
+    position: absolute;
+    padding: 10px 0 0px 15px;
+}
+
+
+
+.number-foot {
+    position: absolute;
+    padding: 10px 0 0px 10px;
+     font-size: 16px !important;
+}
+
+	
+
+.address span img {
+       padding: 4px;
+    width: 14%;
+}
+
+.pad-top {
+	padding-top: 6px;
+	    text-align: center;
+    float: right;
+}
+
+.nav {
+    padding-left: 8%;
+}
+
+.mainList li img{
+	    padding-bottom: 5px;
+}
+
+.padd {
+    padding-top: 10px;
+}
+
+.like img{
+	width: 45%;
+}
+
+.voucher-pad {
+	padding: 0 30px;
+}
+
+.voucher-pad2 {
+	padding: 0 50px;
+}
+
+#topad {
+margin-top:50px;
+}
+
+.footer-h1-0 {
+	    padding-left: 20px;
+   width: 7%;
+}
+
+.footer-p-0 {
+	padding-left:10px;
+}
+
+.rem-lefpad {
+margin-left: 0px;
+    width: 36%;
+}
+
+.rem-lefpad-foot {
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+
+
+/*********   Footer fonts and icon css  *******/
+
+.fix {
+	font-size: 13px;
+}
+
+.foot-env img {
+    width: 13%;
+    padding: 10px;
+}
+
+
+.foot-nopad-left {
+	padding-left:20px;
+	    width: 20%;
+}
+
+.foot-flag img {
+    width: 15%;
+    padding: 0 0 0 29px;
+    vertical-align: baseline;	
+}
+
+.shrink img {
+	width:100%
+}
+
+
+.address span.earphone-foot img{
+     width: 14%;
+    padding: 10px 0 0px 0px;
+}
+
+.padtop {
+	padding-top: 22px;
+}
+
+.padtoplil {
+	padding-top: 8px;
+}
+
+
+
+.nosidepad {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.norightpad {
+	padding-right:0px;
+}
+
+.balance {
+	    width: 90%;
+}
+
+.balance00 {
+	    width: 80% !important;
+}
+
+.balance0 {
+	    width: 80%  !important;
+}
+
+.balance1 {
+	    width: 80%;
+}
+
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+}
+
+
+
+@media screen and  (min-width: 400px) and (max-width: 430px) {
+.hovereffect img#imgicon1.rod{
+    height: 125px !important;
+    padding-left: 16px !important;
+} 
+}
+
+
+/***** FOR TABLETS  *****/
+
+@media screen and  (min-width: 768px) and (max-width: 1023px) {
+    
+.number {
+    position: absolute;
+    padding: 10px 0 0px 4px;	
+}
+
+
+.number-foot {
+    position: absolute;
+    padding: 10px 0 0px 5px;
+    font-size: 12px;
+}
+
+	
+
+.address span img {
+       padding: 4px;
+    width: 21%;
+}
+
+.pad-top {
+	padding-top: 6px;
+	    text-align: center;
+    float: right;
+}
+
+.nav {
+    padding-left: 8%;
+}
+
+.mainList li img{
+	    padding-bottom: 5px;
+}
+
+.padd {
+    padding-top: 10px;
+}
+
+.like img{
+	width: 45%;
+}
+
+.voucher-pad {
+	padding: 0 30px;
+}
+
+.voucher-pad2 {
+	padding: 0 50px;
+}
+
+#topad {
+margin-top:50px;
+}
+
+.footer-h1-0 {
+	    padding-left: 20px;
+   width: 7%;
+}
+
+.footer-p-0 {
+	padding-left:10px;
+}
+
+.rem-lefpad {
+margin-left: 0px;
+    width: 36%;
+}
+
+.rem-lefpad-foot {
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+
+
+
+/*********   Footer fonts and icon css  *******/
+
+.fix {
+	font-size: 13px;
+}
+
+.foot-env img {
+	width: 15%;
+    padding: 7px;
+}
+
+
+.foot-nopad-left {
+	padding-left:20px;
+	    width: 20%;
+}
+
+.foot-flag img {
+    width: 7%;
+    padding: 5px;	
+}
+
+.shrink img {
+	width:100%
+}
+
+
+.address span.earphone-foot img{
+     width: 18%;
+    padding: 10px 0 0px 0px;
+}
+
+.padtop {
+	padding-top: 22px;
+}
+
+.padtoplil {
+	padding-top: 8px;
+}
+
+
+
+.nosidepad {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.norightpad {
+	padding-right:0px;
+}
+
+.balance {
+	    width: 11%;
+}
+
+.balance00 {
+	    width: 11%;
+}
+
+.balance0 {
+	    width: 17%;
+}
+
+.balance1 {
+	    width: 10%;
+}
+
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+}
+
+

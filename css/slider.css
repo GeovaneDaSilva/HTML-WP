@@ -1,0 +1,194 @@
+.res-sli-span{
+	_width:20px;
+	_height:20px;
+	_border-radius: 100%; 
+}
+
+.res-sli-span img{
+	width: 30%;
+	border-radius: 100%;
+}
+
+.desig{
+	font-size: 15px !important;
+}
+
+.sli-for-res{
+	display: none;
+}
+
+
+/*body{
+	margin: 0px;
+	padding:0px;
+	background: #6bd6c6;
+}*/
+
+.sli-bg{
+	_background: green;
+	height: 380px;
+	padding-top: 60px;
+}
+
+.girl{
+	background: url('../images/girl.jpg');
+	background-size: cover;
+	width: 50px;
+	height:50px;
+	border-radius:100%;
+	_position: absolute; 
+	_left: 40px;
+	_top:80px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.boy{
+	background: url('../images/boy.jpg');
+	background-size: cover;
+	width: 50px;
+	height:50px;
+	border-radius:100%;
+	_position: absolute; 
+	_left: 40px;
+	_top:80px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.man{
+	background: url('../images/man.jpg');
+	background-size: cover;
+	width: 50px;
+	height:50px;
+	border-radius:100%;
+	_position: absolute; 
+	_left: 40px;
+	_top:80px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.para-name{
+	display: inline-block;
+}
+
+.img-para{
+	font-size: 14px;
+	_background: grey;
+	
+
+}
+
+.img-para2{
+	font-size: 10px;
+	_background: grey;
+	margin-top:-10px; 
+}
+
+#main{
+	position: absolute;
+	top: 35%;
+	left:38.5%;
+}
+
+.para-slide1{
+	font-size: 12px;
+	margin-top:20px; 
+	text-align: center;
+}
+
+.para-slide{
+	font-size: 12px;
+	margin-top:-10px; 
+	text-align: center;
+}
+
+
+#slide1{
+    width: 270px;
+    height: 190px;
+    position: absolute;
+    transform: translateX(0px);
+    z-index: 99;
+    box-shadow: 5px 2px 30px 0px #d4cdcd;
+    transition: all .5s;
+}
+
+#slide2{
+	width: 270px;
+	height:180px;
+	position: absolute;
+	transform: translateX(-330px);
+	z-index: 9;
+	background: #f2f9f9;
+	transition: all .5s;
+}
+
+#slide3{
+	width: 270px;
+	height:180px;
+	position: absolute;
+	transform: translateX(330px);
+	z-index: 9;
+	background: #f2f9f9;
+	transition: all .5s;
+}
+
+#pre{
+	    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: linear-gradient(92deg, #ec5218, #ee1e72);
+    border: 2px solid white;
+    font-family: calibri;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 27px;
+    position: absolute;
+    top: 62%;
+    left: 0%;
+    margin-top: 50px;
+}
+
+#pre:hover{
+	cursor: pointer;
+}
+
+#nex{
+	height:30px;
+	width:30px;
+	border-radius: 100%;
+	background: linear-gradient(92deg, #ec5218, #ee1e72);
+	border: 2px solid white;
+	font-family:calibri;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+	line-height: 27px;
+	position: absolute;
+	top: 52%;
+	right:3%;
+	margin-top: 50px;
+}
+
+#nex:hover{
+	cursor: pointer;
+}
+
+
+@media(min-width: 320px) and (max-width: 767px){
+	
+	
+	
+
+	#pre{
+	z-index: 1000;
+	}
+	#nex{
+	z-index: 1000;
+	}
+
+}
+

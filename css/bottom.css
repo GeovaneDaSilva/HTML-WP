@@ -1,0 +1,263 @@
+.footer-h1{
+	display: inline-block;
+	color: white;
+	background-color: #ec2667;
+	padding: 0px 7px;
+	margin: 20px;
+}
+.footer-h7{
+	display: inline-block;
+	color: white;
+	background-color: #ec2667;
+	padding: 0px 15px;
+	margin-top: 55px;
+	font-size: 100px;
+}
+
+.footer-h1-1{
+	display: inline-block;
+	color: white;
+	background-color: #ec2667;
+	padding: 0px 7px;
+	margin: 20px 20px 20px 20px;
+}
+
+.footer-h2{
+	color: #3f5d9e;
+	display: inline-block;
+}
+
+.footer-p{
+	color: #535d6b;
+}
+
+.footer-p-7{
+	font-size: 40px;
+}
+
+.footer-cotizar{
+	border: 1px solid orange;
+	border-radius: 3px;
+	background-color: #ffa500;
+	width: 20%;
+	margin:0 auto;
+	padding:4px 15px 4px 15px;
+}
+
+.WP-img-setter{
+	align-content: right;
+    width: 6%;
+    margin: auto;
+	margin-left: 220px;
+}
+
+.blue-long{	
+	background-color: lightblue;
+}
+.footer-p-0-0{
+	margin-top: 20px;
+	text-align: center;
+	color:#3f5d9e;
+	padding-top: 30px;
+}
+.footer-h2-6{
+	font-size: 60px;
+
+}
+
+.my-m-top{
+	margin-top: 80px;
+}
+
+.footer-p-00{
+    font-size: 22px;
+    color: #344451;
+    line-height: 1;
+    padding: 0 0 0 45px;
+    text-align: left;
+}
+
+.head-00{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.yemi{
+	_width: 442px;
+	height: 206px;
+}
+
+.hrW-0{
+	background: #787878;
+	height:2px;
+	width:40%;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.orangeButt{
+	width: 200px;
+	height: 57px;
+	background: #fe712c;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+    padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px 8px 0 0;
+}
+
+.blueFoot{
+	background: #185ba9;
+	min-height:150px;
+}
+
+
+
+
+
+/*.dis-blk{
+	display: inline-block;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	_padding-right:5px;
+	_border-right: 1px solid white;
+	_background: grey;
+	_padding:20px;
+}*/
+
+.web-fuel{
+	padding-right: 20px;
+	border-right: 2px solid white;
+	height: 20px;
+}
+
+/*.plus-1{
+	margin-top: 5px;
+}*/
+
+/*.plus{
+	height:100px;
+	width:12%;
+	background: grey;
+	padding: 0;
+}*/
+
+.plus img{
+	_width: 50%;
+	_height:80px;
+}
+
+.icn-m-top{
+	_background: grey;
+	padding-top: 30px;
+	height:	150px;
+}
+
+/*.footer-icn-cl img{
+	width: 25%;
+	_margin-top: 20px;
+	_background: grey;
+}*/
+
+.color-w-p{
+	color:white;
+	display: inline-block;
+}
+
+.fcbk img{
+	width: 32.5px;
+	height:35px;
+	padding: 7px;
+	/*margin-top:25px;*/
+}
+
+.inst img{
+	width: 32.5px;
+	height:35px;
+	padding: 7px;
+	/*margin-top:25px;*/
+}
+
+.in img{
+	width: 32.5px;
+	height:35px;
+	padding: 7px;
+	/*margin-top:25px;*/
+}
+
+.W-F{
+	font-size: 18px;
+}
+
+.my-rocket img{
+	width: 100%;
+}
+
+
+@media(min-width: 320px) and (max-width: 767px){
+
+	/*.footer-h1-0{
+		display: inline;
+	}*/
+
+	/*.footer-p-0{
+		display:inline;
+	}*/
+
+	/*.footer-p{
+		margin: 0px 10px 0px 19px;
+    	padding: 0px 10px 0px 16px;
+	}*/
+
+	/*.footer-cotizar{
+		width: 100%;
+	}*/
+	/*.W-F{
+		display: block;
+		margin-top: 5px;
+		font-size: 15px;
+	}
+
+	.one-more{
+		margin-top: 20px;
+	}
+
+	.one-more img{
+		width: 100%;
+	}
+
+	.utn{
+		text-align: center;
+	}
+
+	.F-W{
+		_background: orange;
+		margin-top: 150px;
+	}
+
+	.F-W img{
+		width: 80%;
+		display: block;
+	}
+
+	.blueFoot{
+		height: 500px;
+	}
+
+	.address{
+		height: 80px;
+	}
+	
+	.web-fuel{
+		content: '';
+		display: block;
+		border: none;
+	}*/
+	.res-row{
+		text-align: center;
+	}
+
+}

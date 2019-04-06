@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mobile</title>
+
+    <script type="text/javascript" src="bs/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="bs/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/res-slider.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bs/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bottom.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/res-slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <link rel="stylesheet" type="text/css" href="css/9af40.css" />
+
+    <style type="text/css">
+        .image1
+        {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        
+        .middle1
+        {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .checking1
+        {
+            -ms-transform:scale(1.25);
+                -webkit-transform:scale(1.25);
+                transform:scale(1.25);
+        }
+    </style>
+
+
+	
+    <style type="text/css">
+    .collapse.navbar-collapse ul li a{
+        color: white;
+    }
+    </style>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery(".quick-image").click(function () {
+                jQuery(".quick-form").toggle("slide");
+            });
+
+            jQuery('#icon1').hover(function () {
+                jQuery("#imgicon1").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon1").removeClass("checking1");
+            });
+
+            jQuery('#icon2').hover(function () {
+                jQuery("#imgicon2").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon2").removeClass("checking1");
+            });
+
+            jQuery('#icon3').hover(function () {
+                jQuery("#imgicon3").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon3").removeClass("checking1");
+            });
+
+            jQuery('#icon4').hover(function () {
+                jQuery("#imgicon4").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon4").removeClass("checking1");
+            });
+
+            jQuery('#icon5').hover(function () {
+                jQuery("#imgicon5").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon5").removeClass("checking1");
+            });
+
+            jQuery('#icon6').hover(function () {
+                jQuery("#imgicon6").addClass("checking1");
+            }, function () {
+                jQuery("#imgicon6").removeClass("checking1");
+
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="quick-cont-main">
+    <div class="quick-border">
+        <div class="quick-image">
+
+            <img src="images/qucick-img.png">
+
+        </div>
+        <div class="quick-form" style="display: none;">
+            <div role="form" class="wpcf7" id="wpcf7-f521-o1" lang="en-US" dir="ltr">
+                <div class="screen-reader-response"></div>
+                
+                <div class="contact-frm">
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <span class="wpcf7-form-control-wrap cperson">
+                               <span class="white-lable">Tu nombre (requerido)</span> <br>
+                                <input type="text" id="cperson" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required " aria-required="true" aria-invalid="false" placeholder="Nombre*">
+                            </span>
+                        </div>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <span class="wpcf7-form-control-wrap cname">
+                                <span class="white-lable">Tu Email (requerido)</span> <br> 
+                                <input type="text" name="email" id="cname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Email*">
+                            </span>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <span class="wpcf7-form-control-wrap email">
+                                <span class="white-lable">Telefono</span> <br>
+                                 <input type="text" name="telephone" id="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Telefono*" style="width:98%;">
+                            </span>
+                        </div>
+                        <p></p>
+                    </div>
+<form action="email.php" method="post">
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <span class="wpcf7-form-control-wrap comment">
+                                <span class="white-lable">Tu mesaje</span> <br>
+                                <textarea id="comment" name="comment" cols="1" rows="3" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Tu mensaje" style="width:98%;"></textarea>
+                            </span>
+                        </div>
+                        <p></p>
+                    </div>
+                    <p></p>
+                </div>
+
+              
+
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <span class="wpcf7-form-control-wrap phone">
+                                <!-- <input type="tel" id="phone1" value="" size="10" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="021*" style="width:22%"> -->
+                                <!-- <input type="tel" id="phone2" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone Number*" style="width:73%;margin-left:0px;"> -->
+                            </span>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <div class="contact-frm-inner"><p></p></div>
+                    <div class="contact-frm-inner">
+                        <div class="frm-right">
+                            <br><br>
+                            <input type="submit" style="   width: 55%;
+   border-radius: 8px;
+   border: transparent;
+   padding: 5px 7px;
+   height: 51px;color:#ffffff;
+   margin-top: 4px;
+   background-color: #37589f;
+   font-size: 24px;" value="ENVIAR"  onclick="return sendmail();" class="wpcf7-form-control wpcf7-submit">
+                            <span class="ajax-loader"></span>
+                        </div><p></p>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="wpcf7-response-output wpcf7-display-none"></div>
+            </div>
+        </div>
+    </div>
+</div>
+   </form>
+        <div class="row" style="margin-right:0px !important;background-color: #185ba9;">
+            <div class="col-md-3 top-font col-lg-3 col-sm-12 col-xs-12 abc">
+                <span class="envelop"><img src="icon/envelope.png" style="width: 17%;"></span> 
+                <a href="#">info@publishingmyidea.com</a>
+            </div>
+            <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 top-font marg-left abc1">
+                <span class="area"><img src="icon/puerto-rico.png" style="width: 10%;"></span> 
+                <p class="address ft">Condominio El Milenio 300 calle 220 APT 910 Carolina, PR 00982</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 top-font abc1 shrink" style="margin-top: 4px;">
+                <p class="address"><span class="earphone"><img src="icon/phone-receiver.png" style="width: 10.5%;"></span><span class="number"> 939.599.1357 </span></p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 top-font abc1 pad-top">
+                <p class="address"><span ><img src="icon/facebook-logo.png" ></span><span >
+                <img src="icon/instagram.png" ></span><span >
+                <img src="icon/logo-linkedin.png" ></span> </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid grad">
+        <!-- =========== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>$(document).ready(function(){
+        $('#cccc').click(function(){
+            $('#form').slideUp('slow');;
+        });
+
+        })</script>
+            <div class="row form" id="form">
+                <a href="#"><img src="img/arrow.png" style="width: 4%; float: right;z-index:11111; background: white; color: black; position: relative; bottom: 28px; left: 0px;" onClick="click()" id="cccc"></a>
+
+                                                <h1 class="text-center">SOLICITAR COTIZACIÓN<!-- óíéabc --></h1>
+
+                                                <div class="col-sm-4">
+
+                                                                <p>Tu nombre (requerido)</p><br>
+
+                                                                <input type="text" name="">
+
+                                                                <p>nombre de la empresa</p>
+
+                                                                <br><input type="text" name="">
+
+                                                                <p>Cómo Se Enteró De Nosotros?</p>
+
+                                                                <br>
+
+                                                                <!--<input type="text" name="" placeholder="---">-->
+                                                                <select style="width: 97%;border-radius: 8px;color: black;border: transparent;padding: 5px 7px;height: 45px;">
+                                                                    <option value="0">Google</option>
+                                                                    <option value="1">Facebook</option>
+                                                                    <option value="2">Recomendación</option>
+                                                                    <option value="3">Otro</option>
+                                                                </select>
+
+                                                                <p>Adjunto archivo</p><br>
+<label for="imageUpload" class="choose-1" style="font-weight: 400;"><span>Seleccionar arrchivo</span><p>No se eli... archivo</p></label>
+<input type="file" id="imageUpload" accept="image/*" style="display: none">
+                                                               <!-- <input type="file" style="background-color: white;padding:11px !important;width:96%" name="hello" placeholder="No se eli... archivo"> -->
+
+                                                </div>
+
+                                                <div class="col-sm-4">
+
+                                                                <p>Tu Email (requerido)</p>
+
+                                                                <br><input type="text" name="email">
+
+                                                                <p>Presupuesto (requerido)</p>
+
+                                                                <br>
+                                                                <!--<input type="text" name="" placeholder="---">-->
+                                                                <select style="width: 97%;border-radius: 8px;color: black;border: transparent;padding: 5px 7px;height: 45px;">
+                                                                    <option value="0">No estoy seguro</option>
+                                                                    <option value="1">$500 - $1,000</option>
+                                                                    <option value="2">$1,000 - $2,000</option>
+                                                                    <option value="3">$2,000 - $3,000</option>
+                                                                    <option value="4">$3,000 - $4,000</option>
+                                                                    <option value="5">$4,000 - $5,000</option>
+                                                                    <option value="6">$5,000 - $6,000</option>
+                                                                    <option value="7">$6,000 - $7,000</option>
+                                                                    <option value="8">$7,000 - $8,000</option>
+                                                                    <option value="9">$8,000 - $9,000</option>
+                                                                    <option value="10">$10,000 +</option>
+                                                                </select>
+
+                                                                <p>Su mensaje (requerido)</p><br>
+<form action="email.php" method="post">
+                                                                <textarea name="comment"></textarea>
+
+                                                </div>
+
+                                                <div class="col-sm-4">
+
+                                                                <p>Teléfono</p><br>
+
+                                                                <input type="text" name="telephone">
+
+ 
+
+                                                                <p>Seleccionar categoria</p><br>
+
+                                                                <!--<input type="text" name="">-->
+                                                                <select style="width: 97%;border-radius: 8px;color: black;border: transparent;padding: 5px 7px;height: 45px;">
+                                                                    <option value="0">Manejo de redes sociales</option>
+                                                                    <option value="1">Pàgina web</option>
+                                                                    <option value="2">Diseño gràfico</option>
+                                                                    <option value="3">SEO/SEM/Google Adwords</option>
+                                                                    <option value="4">Aplicación móvil</option>
+                                                                </select>
+
+ 
+
+                                                                <p>Codígo di seguridad:</p><br>
+
+                                                                <input type="text" value="d 2 i o 5 v" name="" style="text-align: -webkit-right;text-decoration-style: solid;color: #9c8484;font: 1.5em/1.25em Arial, Helvetica, sans-serif;" >
+
+                                                                
+
+ 
+
+                                                                <button class="formButton" type="submit">ENVIAR</button>
+</form>
+                                                </div>
+
+ 
+
+                                                <div class="text-center cot">Cotizar</div>
+
+                                </div>
+
+
+        <!-- ========= -->
+        <div class="row m-15">
+            <div class="col-sm-5 abc2 logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="col-sm-5 abc3 mainMenu">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button-md" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#mynavbar">
+                            <div class="icon-bar"></div>
+                            <div class="icon-bar"></div>
+                            <div class="icon-bar"></div>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="nav navbar-nav pull-left">
+                            <li><a href="index.html">Nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Paquetes</a></li>
+                            <li><a href="#">Desarroll Web</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-2 abc23 text-center">
+                <button class="CButton">
+                    Contacto
+                </button>
+            </div>
+        </div>
+
+        <div class="row m-15">
+            <div class="col-md-offset-2 col-md-4">
+                <h1 class="mainContent">Manejo de Redes Sociales <br>en Puerto Rico</h1>
+                <p>Desarrrollamos estrategias de difusion para alimentar las redes sociales de una marca o empresa. Diridimos la interaccion de la empresa con su comunidad virtual a traves de medios que se adecuen a sus necesidades especificas</p>
+                <ul class="mainList">
+                    <li class="padd">
+					<span>
+					<img src="img/tick.png"> Facebook
+					</span>
+                    </li>
+                   
+				  <li class="padd">
+				  <img src="img/tick.png">
+                      <span>  Instagram </span>
+                    </li>
+                 
+				 <li class="padd">
+				 <img src="img/tick.png">
+                      <span>  linkedIn </span>
+                    </li>
+                </ul>
+                <button class="MButton">
+                    Comience ahora.
+                </button>
+            </div>
+            <div class="col-md-6 iPhones">
+                <img src="images/iphones.png" class="img-responsive">
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid">
+    <div class="row blueBanner">
+            <img src="images/blue bar.png ">
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-offset-3 col-sm-6 bor">
+                <span class="col-xs-3 pinkLine"></span>
+                <span class="col-xs-6 text-center pinkH1 t-center"><h1 class="pinkH">ACERCA DE</h1><h1 class="blackH">NOSOTROS</h1>
+                </span>
+                <span class="col-xs-3 pinkLine"></span>
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+        <div class="col-sm-offset-2 col-sm-8 bor">
+            <p class="para">Somos una red de profesionales que se diferencia del resto por las asesorias que brindamos en relacion con ell mercado digital. Buscamos que los emprendedores y las pequenas empresas transformen sus ideas en modelos de negocio rentables en internet.</p>
+        </div>
+    </div>
+    <div class="container bor">
+        <div class="row text-center">
+            <div class="col-sm-4 text-center">
+                <img src="images/vision.Png" class="img-responsive visIMG">
+                <h3 class="visH">Objetivos</h3>
+                <p class="visH">Ayudar a pequenas estructurar su negocio en la  Internet. Proveer herramientas para el crecimiento de la empresa y que sea un negocio sostenible</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="images/vision1.Png" class="img-responsive visIMG">
+                <h3 class="visH">Visión</h3>
+                <p class="visH">Que cade empresa o indiciduo alcance reconocim iento a traves del internet y una mayor cercania con nuevos clinetes.</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="images/val.Png" class="img-responsive visIMG">
+                <h3 class="visH">Misión</h3>
+                <p class="visH">Ayudar a empresas o individuos a alcanzar sus objetivos atraves de un servici o de calidad, confiable, costo efectivo y de satisfaccion a sunedesidad,</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 laptop-res-row bor" style="padding:0px;">
+                <span class="col-xs-2 pinkBG laptop-res"><h1 class="h1-font-size" style="font-size:30px">BRINDAMOS</h1></span>
+                <span class="col-xs-2 pinkLine laptop-res" style="    width: 20.666667%;"></span>
+                <span class="col-xs-3 text-center headen dis-blk t-center">
+                    <h1 class="pinkH">NUESTROS</h1>
+                    <h1 class="blackH">SERVICIOS</h1>
+                </span>
+                <span class="col-xs-2 pinkLine laptop-res" style="    width: 20.666667%;"></span>
+                <span class="col-xs-2 pinkBG laptop-res"><h1 class="h1-font-size" style="font-size:30px">CALIDAD</h1></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row prob sm-tab my-res">
+                <div class="col-sm-4 lab-res text-right my-res">
+                    
+                    <div id='icon1' class="blueH2main">                    
+                    <h2 class="blueH2">DESAROLLO WEB</h2>
+                    <p >Creamos sitios web modernos que no solo son bellos y faciles de usar, sino tambien de alta conversion.</p>
+                    </div>
+
+                    <div id='icon2' class="blueH2main">
+                        <h2 class="blueH2">SEO: OPTIMIZACION EN<br>MOTORES DE BUSQUEDA</h2>
+                    <p>Desarrollamos una optimizacion tenica y de contenido para dominar los motores de busqueda.</p>
+                    
+                    </div>
+
+                    <div id='icon3' class="blueH2main">
+                    <h2 class="blueH2">PERFORMANCE<br>MARKETING</h2>
+                    <p>Combinamos datos y creatividad para que su cliente le encuentre en el mometo adecuado, en el lugar correcto y al precio justo.</p>
+                    
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-xs-3 col-md-1 col-lg-1" id="hovereffct">
+                <div class="hovereffect">
+                        <img id="imgicon1" src="icons/icon-1.jpg" style="height:50px; float:right;    padding-right: 2px;">
+                        <div class="col-lg-8 col-lg-offset-4">
+                            <img id="imgicon1" class="rod" src="icons/rod.jpg" style="height: 125px;">
+                        </div>
+                    </div>
+                    <div class="hovereffect" style="margin-top:-119px">
+                        <img id="imgicon2" src="icons/icon-2.jpg" style="height:50px; float:right;margin-bottom: 116px;margin-top: 118px;padding-right: 2px;">
+                        <div class="col-lg-8 col-lg-offset-4" style="margin-top:-117px">
+                            <img id="imgicon1" class="rod" src="icons/rod.jpg" style="height: 125px;">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="hovereffect">
+                        <img id="imgicon3" src="icons/icon-5.jpg" style="height:50px; float:right;    padding-right: 3px;">
+                    </div>
+                    <div class="hovereffect">
+                        <img src="img/left.jpg" style="height:395px; display:none;">
+                    </div>
+                </div>
+                <style>
+                .hovereffect {
+                width:100%;
+                height:100%;
+                float:left;
+                /*overflow:hidden;*/
+                position:relative;
+                text-align:center;
+                cursor:default;
+                }
+
+                .hovereffect .overlay {
+                width:100%;
+                height:100%;
+                position:absolute;
+                overflow:hidden;
+                top:0;
+                left:0;
+                opacity:0;
+                background-color:rgba(0,0,0,0.5);
+                -webkit-transition:all .4s ease-in-out;
+                transition:all .4s ease-in-out
+                }
+
+                .hovereffect img {
+                display:block;
+                position:relative;
+                -webkit-transition:all .4s linear;
+                transition:all .4s linear;
+                }
+
+                .hovereffect h2 {
+                text-transform:uppercase;
+                /*color:#fff;*/
+                text-align:center;
+                position:relative;
+                font-size:17px;
+                /*baaackground:rgba(0,0,0,0.6);*/
+                -webkit-transform:translatey(-100px);
+                -ms-transform:translatey(-100px);
+                transform:translatey(-100px);
+                -webkit-transition:all .2s ease-in-out;
+                transition:all .2s ease-in-out;
+                padding:10px;
+                }
+
+                .hovereffect a.info {
+                text-decoration:none;
+                display:inline-block;
+                text-transform:uppercase;
+                color:#fff;
+                border:1px solid #fff;
+                background-color:transparent;
+                opacity:0;
+                filter:alpha(opacity=0);
+                -webkit-transition:all .2s ease-in-out;
+                transition:all .2s ease-in-out;
+                margin:50px 0 0;
+                padding:7px 14px;
+
+                }
+                .hovereffect a.info:hover {
+                /*box-shadow:0 0 5px #fff;*/
+                }
+
+                .hovereffect:hover img {
+                -ms-transform:scale(1.05);
+                -webkit-transform:scale(1.05);
+                transform:scale(1.05);
+                }
+                </style>
+                <div class="col-sm-4 col-xs-6 col-md-2 col-lg-2 for-height lab-res-img my-res-p nosidepad">
+                    <img src="img/iphone.jpg" style="height:395px" class="img-responsive">
+                </div>
+                <div class="col-sm-3 col-xs-3 col-md-1 col-lg-1" id="hovereffct">
+                <div class="hovereffect">
+                        <img id="imgicon4" src="icons/icon-3.jpg" style="height:50px; float:right;">
+                        <div class="col-lg-8 col-lg-offset-4">
+                            <img id="imgicon1" class="rod" src="icons/rod.jpg" style="height: 125px;">
+                        </div>
+                    </div>
+                    <div class="hovereffect" style="margin-top:-119px">
+                        <img id="imgicon5" src="icons/icon-4.jpg" style="height:50px; float:right;    margin-bottom: 123px; margin-top: 116px; padding-right: 0.5px;">
+                        <div class="col-lg-8 col-lg-offset-4" style="margin-top:-123px">
+                            <img id="imgicon1"  class="rod" src="icons/rod.jpg" style="height: 125px;">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="hovereffect">
+                        <img id="imgicon6" src="icons/icon-6.jpg" style="height:50px; float:right;padding-right: 1.6px;">
+                    </div>
+                    <div class="hovereffect">
+                        <img src="img/left.jpg" style="height:395px; display:none;">
+                    </div>
+                    <div class="hovereffect">
+                        <img src="img/right.jpg" style="height:395px; display:none;">
+                    </div>
+                </div>
+
+                <div class="col-sm-4 lab-res">
+                    <div id='icon4' class="blueH2main">
+                    <h2 class="blueH2">EMAIL MARKETING</h2>
+                    <p>Integramos el Email Marketing en su estrategia digital con el objetivo de obtener conversiones sin dejar de ser creativos.</p>
+                    
+                    </div>
+
+                    <div id='icon5' class="blueH2main">
+                    <h2 class="blueH2">SOCIAL MEDIA <br>MARKETING</h2>
+                    <p>Construimos un dialogo con el cliente mediante campanas originales y con las practicas mas innovadores del entorno digital.</p>
+                    
+                    </div>
+
+                    <div id='icon6' class="blueH2main">
+                    <h2 class="blueH2">ESTRATEGIA DE<br>CONTENIDO</h2>
+                    <p>Establecemos una narracion digital para fortalecer su marco con el objetivo final de convertir clientes en promotores de su comopania.</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid social">
+        <div class="row">
+            <div class="col-xs-12 expertos">
+                <h1 class="h1expertos">EXPERTOS</h1>
+                <h1 class="h12expertos">MARKETING</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 text-center like">
+                <img src="images/like (1).png">
+            </div>
+            <div class="col-sm-9">
+                <p class="socialPara">Nos encargamos de la gestion y el manejo de tus redes sociales para lograr un mejor posicionamiento de tu marca, mayor cantidad de leads, o simplemente conexion con tus clientes</p>
+            </div>
+            <div class="col-sm-1 ab">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <input type="button" name="" class="socialButton" value="CONSULTA GRATIS">
+            </div>
+        </div>
+    </div>
+    <div class="container lab-res">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1 class="h1Orange">NUESTROS</h1>
+                <h1 class="h1UnderOrange">PAQUETES</h1>
+            </div>
+        </div>
+        <div class="row storeimg my-res">
+            <div class="col-sm-4 lab-res my-res">
+                <img src="images/bluestore.PNG">
+                <hr class="hrblue">
+                <p class="storeh">Paquete Emprendedor para jovenes</p>
+                <p>Creado para jovenes que quieren empezar a construir su idea <br>
+                de negocio, cuyo estrategia es desarrollar una pagina web y <br>
+                potentciarsu marca, idea o negocio.</p>
+                <div class="text-center">
+                <img src="images/fbIcon.PNG" class="fbicon">
+                </div>
+                <div class="fbBg">
+                    <span class="text-center spa"><img src="icon/facebook-logo.png">
+                        <span class="text-center ro ">
+                        <p class="p1">Creación o actualización de página en Facebook</p>
+                    </span>
+                    </span>
+                    <hr class="hrW">
+                    <div class="text-center voucher-pad">
+                    <p class="p1"> 3 piublicaciones por semana: 2 imagenes / enlaces  memes y 1 contenido original.</p>
+                    </div>
+                    <hr class="hrW">
+                    <div class="text-center voucher-pad2">
+                    <p class="p1"> $40,000 dolares de compana de publicidad en Facebook, incluidos!</p>
+                    <h1 style="margin-top: 30px;"><sup>$</sup>250<sub style="bottom:0px !important;font-size:15px" style="bottom:0px !important;font-size:15px">/m</sub></h1>
+                    <input type="button" name="" class="subButton" value="CONTRATAR">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4 lab-res">
+                <img src="images/orangestore.PNG">
+                <hr class="hrorange">
+                <p class="storeh">Paquete PyMe Mediano</p>
+                <p>Creado para empresas pequenas y medianas que quieren<br>
+                desarrollar un modelo de negocio basado en la web, donde sus <br>
+                servicios o productos puedan generar ventas</p>
+                <div class="text-center">
+                <img src="images/instai.PNG" class="instaicon">
+                </div>
+                <div class="instaBg"><span class="text-center spa"><img src="icon/facebook-logo.png">
+                    
+                    <p class="p1">Creación o actualización de página en Facebook e Instagram.</p>
+                    </span>
+                <hr class="hrW">
+                    <div class="text-center">
+                    <p class="p1"> Landing page incluido.</p>
+               <hr class="hrW">    <img src="icon/instagram.png" style="float:left;"> 
+                    <p class="p1"> 4 piublicaciones por semana en Facebook y Instagram.</p>
+                    </div>
+                    <hr class="hrW">
+                    <div class="text-center">
+                    <p class="p1">Diseno grafico / redaccion de contenido y 3 campanas menesual.</p>
+                    <h1><sup>$</sup>370<sub style="bottom:0px !important;font-size:15px">/m</sub></h1>
+                    <input type="button" name="" class="subButton" value="CONTRATAR">
+                    </div>
+					</div>
+
+            </div>
+            <div class="col-sm-4 lab-res">
+                <img src="images/pinkstore.PNG">
+               
+			
+				
+				<hr class="hrpink">
+                  
+				   
+				   <p class="storeh">Paquete PyMe Premium</p>
+                <p>Disenado especificamente para empresas que ya tienen experiencia en desarrollo de negocios por internet y  requieren potenciarlo,<br>
+                expandirlo y exportas sus productos y serviciosa otras fronteras..</p>
+                <div class="text-center">
+                    <img src="images/link.PNG" class="linkicon">
+                </div>
+				<div class="linkBg"><span class="text-center spa"><img src="icon/facebook-logo.png">
+                    
+                    <p class="p1">Creación o actualización de página en Facebook, Instagram y  Linkedin.</p>
+					<img src="icon/logo-linkedin.png" style="float:left;">
+                    </span>
+                  
+					<hr class="hrW">
+                 
+				  <div class="text-center">
+                    <p class="p1">Diseno de sitio web incluido</p>
+                    </div>
+                     <img src="icon/instagram.png" style="float:left;"> 
+					 <hr class="hrW">
+                    <div class="text-center">
+                    <p class="p1">6 publicaciones por semana en Facebook, Instagram y Linkedin.</p>
+                    <hr class="hrW">
+                    <p class="p1">Diseno grafico / redaccion de contenido y 7 campanas menesual.</p>
+					<h1><sup>$</sup>250<sub style="bottom:0px !important;font-size:15px">/m</sub></h1>
+                    <input type="button" name="" class="subButton" value="CONTRATAR">
+                    </div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section> -->
+    <div class="container text-center my-tp">
+        <img src="img-2/monitor-de-pc.png"> 
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img src="img-2/Layer 1.png" style="width:100%">    
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row" >
+        <div class="container hover-portfolio">
+          <div class="col-sm-4 ">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/tata-400x234.png" class="img-responsive">
+            <br>
+            <img src="images/WordPress.png" class="img-responsive WP-img-setter">
+          </div>
+          <div class="col-sm-4">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/baja-400x234.png" class="img-responsive">
+            <br>
+            <img src="images/WordPress.png" class="img-responsive WP-img-setter">
+          </div>
+          <div class="col-sm-4">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/floreria-400x234.png" class="img-responsive">
+            <br>
+            <img src="images/bold.png" class="img-responsive WP-img-setter">
+          </div>
+        </div>
+      </div>
+      <div class="row" id="topad">
+        <div class="container hover-portfolio">
+          <div class="col-sm-4">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/em-400x234.png" class="img-responsive">
+            <br>
+            <img src="images/WordPress.png" class="img-responsive WP-img-setter">
+          </div>
+          <div class="col-sm-4">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/SAWP-400x234.png" class="img-responsive">
+            <br>
+            <img src="images/WordPress.png" class="img-responsive WP-img-setter">
+          </div>
+          <div class="col-sm-4">
+		  <img class="eye-icon" src="images/eye.PNG">
+            <img src="img/yemi-site2full.png" class="img-responsive yemi">
+            <br>
+            <img src="images/WordPress.png" class="img-responsive WP-img-setter">
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </section> -->
+  <!-- <footer> -->
+    <div class="container my-tp">
+      <div class="row">
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1">1</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row">
+          <h2 class="footer-h2">Analisis</h2>
+          <p class="footer-p">
+          Recopilacion de informacion, proposito, objetivos ycual sera la audiencia principal del sitio web.`
+          </p>
+        </div>
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1-1">2</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row">
+          <h2 class="footer-h2">Planificacion</h2>
+          <p class="footer-p">
+          Definicion del mapa del sitio, la estructura y las tecnologias a usar.
+          </p>
+        </div>
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1-1">3</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row">
+          <h2 class="footer-h2">Desino</h2>
+          <p class="footer-p">
+          Definicion del mapa del sitio, la estructura y las tecnologias a usar.
+          </p>
+        </div>
+     </div>
+        <div class="row">
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1">4</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row">
+          <h2 class="footer-h2">Contenido</h2>
+          <p class="footer-p">
+          Seleccionamos cuidadosamente los texos,fotos o videos no solo para el visetante sino para los motores de busqueda.
+          </p>
+        </div>
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1-1">5</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row">
+          <h2 class="footer-h2">Desarrollo</h2>
+          <p class="footer-p">
+          Luego de recopilar la imformacion, se colocara en el sitio de manera estrategica para realizar la conversion. El sitio debe ser full responsive lo que significa que se debe mostrar correctamente tanto en computadoras como en moviles.
+          </p>
+        </div>
+        <div class="col-sm-1 footer-h1-0 res-row">
+          <h1 class="footer-h1-1">6</h1>
+        </div>
+        <div class="col-sm-3 footer-p-0 res-row ">
+          <h2 class="footer-h2">Pruebas</h2>
+          <p class="footer-p">
+          Probamos todas las caracteristicas tecnicas y verificamos la compatibilidad  con los navegadores, tambien se verifica si el sitio web cumple su proposito.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-m-top my-7">
+      <div class="row">
+            <div class="col-sm-offset-1 aligned2 col-sm-1 lab-res footer-h1-0 my-7-pdd">
+            <h1 class="footer-h7">7</h1>
+      </div>
+      <div class="col-sm-7 lab-res footer-p-0-0">
+            <h2 class="footer-h2-6 my-lanz">Lanzamiento</h2>
+            <p class="footer-p-00">Lugo de lanzar el sitio web nuesdtro trabajo no concluye, siempre revisamos la fase inicial para corregir los errores y deficiencias, ademas `</p>
+      </div>
+        <div class="col-sm-3 lab-res-rocket res-row footer-p-0 my-rocket">
+            <img src="images/rocket.png">
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+        <hr class="hrW-0">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h1 class="head-00">¿QUE DICEN NUESTROS CLIENTES?</h1>
+                </div>
+            </div>
+        </div>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="footer-cotizar">Cotizar</h1>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <p class="footer-long-cotizar">
+            <img src="img/envelope.png" class="img-responsive">
+          </p>
+        </div>
+      </div>
+    </div> -->
+  <!-- </footer> -->
+
+  <div class="container text-center sli-bg">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="pre">
+                   <img src="icons/lchev.png">
+                </div>
+        <div id="main">
+            <div id="slide1">
+            <p class="para-slide1">Agradezco a Publishing my idea la excelente</p>
+            <p class="para-slide">labor y trato para conmigo y mi proyecto</p>
+            <p class="para-slide">para personas con cancer</p>
+            <div class="girl"></div>
+            <div class="para-name">
+                <p class="img-para">Sarita Rodreguez</p>
+                <p class="img-para2">Psycologist Specialist</p>
+            </div>
+
+            
+            <!-- <img src="images/girl.jpg" class="round-img"> -->
+            
+            </div>
+
+        <div id="slide2">
+            <p class="para-slide1">Los recomiendo al maximo Si estas</p>
+            <p class="para-slide">buscando levantar la imagen de tu negocio,</p>
+            <p class="para-slide">estos son los expertos en preparacion de</p>
+            <div class="boy"></div>
+            <div class="para-name">
+                <p class="img-para">Luis Alberto</p>
+                <p class="img-para2">MRG Factory</p>
+            </div>
+        </div>
+
+        <div id="slide3">
+            <p class="para-slide1">Love their service Detail oriented, they take</p>
+            <p class="para-slide">good care  and listen  to your needs however,</p>
+            <p class="para-slide">they go above and beyond expectations</p>
+            <div class="man"></div>
+            <div class="para-name">
+                <p class="img-para">Amervim Bonano</p>
+                <p class="img-para2">Bonn LLC</p>
+            </div>
+            
+        </div>
+    </div>
+    <div id="nex">
+       <img src="icons/rchev.png">
+    </div>
+            </div>          
+        </div>
+    </div>
+
+    <!-- ======responsive slider========description======= -->
+    <div class="container sli-for-res">
+        <div class="card">
+  <div class="products">
+    <div class="product active" product-id="1" product-color="#D18B49">
+      <!-- <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Stag.svg"/></div> -->
+      <p class="description">Agradezco a Publishing my idea la excelente
+        labor y trato para conmigo y mi proyecto
+        para personas con cancer</p>
+        <span class="res-sli-span"><img src="images/girl.jpg"><h1 class="title">Sarita Rodreguez</h1><h1 class="title desig">Psycologist Specialist</h1></span>
+    </div>
+    <div class="product" product-id="2" product-color="#542F13">
+      <!-- <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Bear.svg"/></div> -->
+      <p class="description">Los recomiendo al maximo Si estas
+        buscando levantar la imagen de tu negocio,
+        estos son los expertos en preparacion de</p>
+        <span class="res-sli-span"><img src="images/boy.jpg"><h1 class="title">Luis Alberto</h1><h1 class="title desig">MRG Factory</h1></span>
+    </div>
+    <div class="product" product-id="3" product-color="#A5AAAE">
+      <!-- <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Mouse.svg"/></div> -->
+      <p class="description">Love their service Detail oriented, they take good care  and listen  to your needs however, they go above and beyond expectations</p>
+      <span class="res-sli-span"><img src="images/man.jpg"><h1 class="title">Luis Alberto</h1><h1 class="title desig">MRG Factory</h1></span>
+    </div>
+    <div class="product" product-id="4" product-color="#ED8D1F">
+      <!-- <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Fox.svg"/></div> -->
+      <p class="description">Agradezco a Publishing my idea la excelente
+        labor y trato para conmigo y mi proyecto
+        para personas con cancer</p>
+        <span class="res-sli-span"><img src="images/girl.jpg"><h1 class="title">Sarita Rodreguez</h1><h1 class="title desig">Psycologist Specialist</h1></span>
+    </div>
+    <div class="product" product-id="5" product-color="#C4C8CB">
+      <!-- <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Rabbit.svg"/></div> -->
+      <p class="description">Los recomiendo al maximo Si estas
+        buscando levantar la imagen de tu negocio,
+        estos son los expertos en preparacion de</p>
+        <span class="res-sli-span"><img src="images/boy.jpg"><h1 class="title">Luis Alberto</h1><h1 class="title desig">MRG Factory</h1></span>
+    </div>
+  </div>
+  <div class="footer"><a class="btn" id="prev" href="#" ripple="" ripple-color="#666666">Prev</a><a class="btn" id="next" href="#" ripple="" ripple-color="#666666">Next</a></div>
+</div>
+</div>
+
+    <!-- ==============end=============== -->
+
+ 
+
+
+
+
+
+    
+    <div class="container">
+        <div class="orangeButt">Cotizar</div>
+    </div>
+    <div class="container-fluid blueFoot res-row" style="min-height:50px !important; padding-left:0px !important; ">
+        <!--<div class="row icn-m-top res-row">-->
+
+
+
+
+        <div class="row" style="margin-right:0px !important;background-color: #185ba9;">
+          
+		    <div class="col-md-3 top-font col-lg-3 col-sm-12 col-xs-12 abc foot-nopad-left norightpad padtop">
+                <span class="foot-env"><img src="icon/envelope.png"></span> 
+                <a class="fix" href="#">info@publishingmyidea.com</a> 
+            </div>
+          
+		  
+		   <div class="col-md-5 col-lg-3 col-sm-12 col-xs-12 top-font abc1 rem-lefpad-foot nosidepad padtop">
+                <span class="foot-flag"><img src="icon/puerto-rico.png" ></span> 
+                <p class="address ft1">Condominio El Milenio 300 calle 220 APT 910 Carolina, PR 00982</p>
+            </div>
+            
+			
+			<div class="col-md-2 col-lg-1 col-sm-12 col-xs-12 top-font abc1 shrink nosidepad balance00">
+               <img src="img/ads.png" >
+            </div>
+			
+			
+			<div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 top-font abc1 shrink  balance0 padtoplil">
+              <img src="images/logo.png" >
+            </div>
+			
+			
+			
+			<div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 top-font abc1 shrink  balance1" style="padding-top: 18px;">
+                <p class="address"><span class="earphone-foot"><img src="icon/phone-receiver.png" ></span><span class="number-foot"> 939.599.1357 </span></p>
+            </div>
+          
+
+		  <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 top-font abc1 pad-top nosidepad balance padtop">
+                <p class="address"><span ><img src="icon/facebook-logo.png" ></span><span >
+                <img src="icon/instagram.png" ></span><span >
+                <img src="icon/logo-linkedin.png" ></span> </p>
+            </div>
+        </div>
+
+
+		
+<!-- 
+	  <div class="col-lg-12 form-inline">
+            <div class="form-group" style="width: 18%;">
+                <span class="envelop">
+                <img src="icon/envelope.png" style="width: 15%;">
+                        <a href="#">info@publishingmyidea.com</a></span>
+            </div>
+            <div class="form-group" style="width: 36%;">
+                <span class="area">
+                        <img src="icon/puerto-rico.png"> <p class="address ft">Condominio El Milenio 300 calle 220 APT 910 Carolina, PR 00982</p>
+            </div>
+            <div class="form-group" style="width: 11%;">
+                <span>
+                        <img src="images/WebFuel.png" height="50px" width="140px"></span>
+            </div>
+            
+            <div class="form-group" style="width: 9%;margin-right: 13px;">
+            <span>
+                    <img src="images/logo-.png" height="50px" width="180px">
+                </span>
+            </div>
+
+            <div class="form-group" style="width: 10%; margin-left: 58px;">
+            <span class="earphone">
+                        <img src="icon/phone-receiver.png" >
+                        <a herf="#">939.599.1357</a> </span>
+            </div>
+
+            <div class="form-group" style="width: 9%;">
+            <span class="fcbk">
+                        <img src="icon/facebook-logo.png"></span> <span class="inst">
+                            <img src="icon/instagram.png"></span> <span class="in">
+                                <img src="icon/logo-linkedin.png"></span>
+            </div>
+
+        </div>
+         -->
+        <!--</div>-->
+    </div>
+
+
+
+
+
+
+</body>
+</html>
+<style>
+
+#hovereffct:hover {
+  opacity: 1;
+}
+
+
+</style>

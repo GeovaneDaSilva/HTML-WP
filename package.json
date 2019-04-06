@@ -1,0 +1,19 @@
+{
+  "name": "html-wp",
+  "version": "1.0.0",
+  "description": "HTML - Wordpress",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeovaneDaSilva/HTML-WP.git"
+  },
+  "author": "Geovane Da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeovaneDaSilva/HTML-WP/issues"
+  },
+  "homepage": "https://github.com/GeovaneDaSilva/HTML-WP#readme"
+}
